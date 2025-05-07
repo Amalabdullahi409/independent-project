@@ -1,0 +1,34 @@
+.calculator {
+  margin-top: 20px;
+  display: inline-block;
+}
+body {
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+nav {
+  margin-bottom: 20px;
+}
+.buttons {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 54px);
+  gap: 10px;
+}
+
+#display {
+  width: 215px;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  padding: 5px;
+}
+button {
+  font-size: 16px;
+  padding: 15px;
+}
+button.clear {
+  color: whitesmoke;
+  background-color: #ff0000;
+}
